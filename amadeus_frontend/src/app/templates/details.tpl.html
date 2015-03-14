@@ -1,0 +1,142 @@
+<div class="row">
+    <div class="col-sm-8" style="">
+  <h2 class="am-search-title-panel"><strong>CREDITS</strong></h2>
+        <div role="tabpanel">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs am-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#basic" aria-controls="basic" role="tab" data-toggle="tab">Basic</a>
+                </li>
+                <li role="presentation"><a href="#instrumental" aria-controls="instrumental" role="tab" data-toggle="tab">Instrumental</a>
+                </li>
+                <li role="presentation"><a href="#engineering" aria-controls="engineering" role="tab" data-toggle="tab">Engineering</a>
+                </li>
+                <li role="presentation"><a href="#songwriting" aria-controls="songwriting" role="tab" data-toggle="tab">Song Writing</a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="basic">
+                    <table class="table table-striped">
+                        <tr ng-repeat="row in vm.songDetails.basic">
+                            <td class="am-row-title"><strong>{{row.task}}:</strong></td>
+                            <td>{{row.people}}</td>
+                        </tr>
+                    </table>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="instrumental">
+                    <table class="table table-striped">
+                        <tr ng-repeat="row in vm.songDetails.instrumental">
+                            <td class="am-row-title"><strong>{{row.task}}:</strong></td>
+                            <td>{{row.people}}</td>
+                        </tr>
+                    </table>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="engineering">
+                    <table class="table table-striped">
+                        <tr ng-repeat="row in vm.songDetails.engineering">
+                            <td class="am-row-title"><strong>{{row.task}}:</strong></td>
+                            <td>{{row.people}}</td>
+                        </tr>
+                    </table>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="songwriting">
+                    <table class="table table-striped">
+                        <tr ng-repeat="row in vm.songDetails.song_writing">
+                            <td class="am-row-title"><strong>{{row.task}}:</strong></td>
+                            <td>{{row.people}}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+<h2 class="am-search-title-panel"><strong>RIGHTS</strong></h2>
+    <div class="col-sm-4" style="padding-left: 50px">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading am-side-tabs am-side-tabs" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  Masters
+                </a>
+              </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body am-panel">
+                        <button class="am-cta">License Now</button>
+                        <button class=" am-cta-secondary">Name Your Price &raquo;</button>
+                        <button class=" am-cta-secondary">Get Contact Info &raquo;</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading am-side-tabs" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Publishing
+                </a>
+              </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body am-panel">
+                        <button class="am-cta">License Now</button>
+                        <button class=" am-cta-secondary">Name Your Price &raquo;</button>
+                        <button class=" am-cta-secondary">Get Contact Info &raquo;</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading am-side-tabs" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Sync
+                </a>
+              </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body am-panel">
+                        <button class="am-cta">License Now</button>
+                        <button class=" am-cta-secondary">Name Your Price &raquo;</button>
+                        <button class=" am-cta-secondary">Get Contact Info &raquo;</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading am-side-tabs" role="tab" id="headingFour">
+                    <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Performance
+                </a>
+              </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                    <div class="panel-body am-panel">
+                        <button class="am-cta">License Now</button>
+                        <button class=" am-cta-secondary">Name Your Price &raquo;</button>
+                        <button class=" am-cta-secondary">Get Contact Info &raquo;</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading am-side-tabs" role="tab" id="headingFive">
+                    <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Transcript
+                </a>
+              </h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                    <div class="panel-body am-panel">
+                        <button class="am-cta">Buy Now</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
